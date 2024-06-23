@@ -1,0 +1,55 @@
+.ticket-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(2, 148, 211);
+  padding: 5px 15px;
+}
+
+.ticket-logo {
+  max-width: 100px;
+}
+.ticket-logo img {
+  width: 100%;
+}
+
+.ticket-price {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.route-citys {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.route-departure {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.ticket {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  border: 2px solid red;
+}/*# sourceMappingURL=style.css.map */
