@@ -25,7 +25,9 @@ main {}
 	text-align: right;
 }
 
-.route {}
+.route {
+	font-size: 12px;
+}
 
 .route-citys {
 	display: flex;
@@ -36,9 +38,15 @@ main {}
 .route-departure {
 	display: flex;
 	align-items: center;
+	gap: 4px;
 }
 
-.route-arrival {}
+.route-arrival {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	
+}
 
 .route-date {}
 
